@@ -1,6 +1,5 @@
 # - * - coding: utf-8 - * -
 
-__author__ = '放养的小爬虫'
 from scrapy.spiders import CrawlSpider
 from scrapy.http import Request
 from scrapy.selector import Selector

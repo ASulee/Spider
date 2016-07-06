@@ -1,4 +1,4 @@
-#! python3
+
 # -*- coding: utf-8 -*-
 
 import re, json
@@ -7,7 +7,6 @@ from pandas import DataFrame, Series
 from multiprocessing.dummy import Pool as ThreadPool
 import pandas as pd
 
-__author__ = '放养的小爬虫'
 
 # 计算总共页数
 def SearchPageCount(position, city):
